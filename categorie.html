@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FED site</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">HOME</a> </li>
+                <li id="filterknop">FILTER</li>
+            </ul>
+        </nav>
+        <!--filterknop-->
+        <section id="filtersection">
+            <h2> COUNTRIES</h2>
+            <ul>
+                <li>Netherlands</li>
+                <li>India</li>
+                <li>Mexico</li>
+                <li>Japan</li>
+            </ul>
+
+            <h2> CATEGORIES</h2>
+            <ul>
+                <li>Clothes</li>
+                <li>Religion</li>
+                <li>Festival</li>
+                <li>All</li>
+            </ul>
+
+            <h2> PREFERENCE</h2>
+            <ul>
+                <li>Faces</li>
+                <li>Objects</li>
+            </ul>
+            <hr>
+            <button id="savebtn"> Save </button>
+        </section>
+    </header>
+
+    <!--   categorieen -->
+    <main class="categorie">
+
+        <img class="lijn3" src="img/lijn.png" alt="lijn">
+        <h1>INDIA</h1>
+
+        <article>
+            <ul>
+                <li>
+                    <h2>CLOTHES</h2>
+                    <img src="img/india-kleding2.jpg" alt="kleding">
+                </li>
+
+                <li>
+                    <h2>RELIGION</h2>
+                    <img src="img/hindu-monk-2.jpg" alt="geloof">
+                </li>
+
+                <li>
+                    <h2>FESTIVAL</h2>
+                    <img src="img/india-festival1.jpg" alt="festival">
+                </li>
+
+                <li>
+                    <h2>ALL</h2>
+                    <a href="detail.html"><img src="img/orangealles.jpg" alt="alles"></a>
+                </li>
+            </ul>
+
+
+        </article>
+
+    </main>
+
+
+    <!--   https://www.w3schools.com/html/html_form_input_types.asp-->
+    <!--   Formulier voor de gebruiker-->
+    <footer>
+        <section>
+            <h3> What does the color orange mean in your country?</h3>
+            <p> You can tell us here!</p>
+        </section>
+        <hr>
+        <form id="form">
+            <p>Name</p>
+            <input type="text" name="name">
+
+            <p> Country</p>
+            <input type="text" name="country">
+
+            <p> Date </p>
+            <input type="date" name="date">
+
+            <p>Description</p>
+            <textarea name="description" form="form"></textarea>
+
+            <br>
+            <br>
+
+            <input type="submit" value="submit">
+        </form>
+
+    </footer>
+
+
+</body>
+<script src="script.js">
+</script>
+
+</html>

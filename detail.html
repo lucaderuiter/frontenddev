@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FED site</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">HOME</a> </li>
+                <li id="filterknop">FILTER</li>
+            </ul>
+        </nav>
+        <!--filterknop-->
+        <section id="filtersection">
+            <h2> COUNTRIES</h2>
+            <ul>
+                <li>Netherlands</li>
+                <li>India</li>
+                <li>Mexico</li>
+                <li>Japan</li>
+            </ul>
+
+            <h2> CATEGORIES</h2>
+            <ul>
+                <li>Clothes</li>
+                <li>Religion</li>
+                <li>Festival</li>
+                <li>All</li>
+            </ul>
+
+            <h2> PREFERENCE</h2>
+            <ul>
+                <li>Faces</li>
+                <li>Objects</li>
+            </ul>
+            <hr>
+            <button id="savebtn"> Save </button>
+        </section>
+    </header>
+
+    <img class="lijn5" src="img/lijn.png" alt="lijn">
+    <img class="lijn4" src="img/lijn.png" alt="lijn">
+
+    <!--    de details over de categorie-->
+    <main>
+        <article>
+            <section class="sectionlinks">
+                <h2>INDIA</h2>
+                <p>Designers and devout Hindus have something in common: They both know color plays an important role in creating an environment that enhances mood and well-being. In Hinduism, proper use of color is believed to keep people happy and cheerful. Hindu artists use color when representing the deities to symbolize their essential qualities. Saffron, the burnt-orange hue of the precious spice, is also a sacred color in Hinduism. It represents fire and the burning away of impurities, and is the color worn by holy men.
+                </p>
+            </section>
+
+            <section class="sectionrechts">
+                <h3> RELIGION </h3>
+                <img src="img/hindu-monk-2.jpg" alt="religion">
+            </section>
+
+        </article>
+
+        <article>
+            <section class="sectionmidrechts">
+                <h2>INDIA</h2>
+                <p>Colors represent different emotions to people living in various regional, geographical, and religious divides. And perhaps specific colors that have a special place in a particular area may not necessarily enjoy a similar status elsewhere. Some of the universally celebrated colors find their origins in the spices that are used widely across geographic and religious divides. Turmeric, for instance, while being used for cooking in both the north and the south, is also used in ceremonies offering prayers and marriages.
+                </p>
+            </section>
+
+            <section class="sectionmidlinks">
+                <h3> CLOTHES </h3>
+                <img src="img/india-kleding2.jpg" alt="clothes">
+            </section>
+
+        </article>
+
+        <article>
+            <section class="sectionlinks">
+                <h2>INDIA</h2>
+                <p>Holi is a popular ancient Hindu festival, originating from the Indian subcontinent. It is celebrated predominantly in India, but has also spread to other areas of Asia and parts of the Western world through the diaspora from the Indian subcontinent. Holi is popularly known as the Indian "festival of spring", the "festival of colours", or the "festival of love" The festival signifies the arrival of spring, the end of winter, the blossoming of love, and for many a festive day to meet others, play and laugh, forget and forgive, and repair broken relationships. The festival also celebrates the beginning of a good spring harvest season.
+                </p>
+            </section>
+
+            <section class="sectionrechts">
+                <h3> FESTIVAL </h3>
+                <img src="img/india-festival2.jpg" alt="festival">
+            </section>
+
+        </article>
+
+    </main>
+
+    <!--   https://www.w3schools.com/html/html_form_input_types.asp-->
+    <!--   Formulier voor de gebruiker-->
+    <footer>
+        <section>
+            <h3> What does the color orange mean in your country?</h3>
+            <p> You can tell us here!</p>
+        </section>
+        <hr>
+        <form>
+            <label for="Name">Name</label>
+            <input type="text" name="name" required>
+
+            <label for="country"> Country</label>
+            <input type="text" name="country" required>
+
+            <label for="date"> Date </label>
+            <input type="date" name="date" required>
+
+            <label for="description">Description</label>
+            <textarea name="description" form="form" required></textarea>
+            
+            <input type="submit" value="submit">
+            
+        </form>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

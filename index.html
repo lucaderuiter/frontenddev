@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Lucaderuiter">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FED site</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">HOME</a> </li>
+                <li id="filterknop" class="fknop">FILTER</li>
+            </ul>
+        </nav>
+
+        <section id="filtersection">
+            <h2> COUNTRIES</h2>
+            <ul>
+                <li>Netherlands</li>
+                <li>India</li>
+                <li>Mexico</li>
+                <li>Japan</li>
+            </ul>
+
+            <h2> CATEGORIES</h2>
+            <ul>
+                <li>Clothes</li>
+                <li>Religion</li>
+                <li>Festival</li>
+                <li>All</li>
+            </ul>
+
+            <h2> PREFERENCE</h2>
+            <ul>
+                <li>Faces</li>
+                <li>Objects</li>
+            </ul>
+            <hr>
+            <button id="savebtn"> Save </button>
+        </section>
+    </header>
+
+    <!--De afbeeldingen in het design-->
+    <img class="orangeslice" src="img/orangeslice.png" alt="orangeslice">
+    <img class="orangeslice3" src="img/orangeslice.png" alt="orangeslice">
+    <img class="lijn1" src="img/lijn.png" alt="lijn">
+    <img class="lijn2" src="img/lijn.png" alt="lijn">
+
+
+    <main>
+        <!--de intro-->
+        <article>
+            <h1>ORANGE <br> AS A CULTURE</h1>
+            <p>Orange is vibrant. It’s hot, healthy, fruity and engaging – but it can be abrasive and crass. It’s a polarizing color. People either love it or detest it. It is the only color of the spectrum whose name was taken from an object, the popular fruit - the orange. In nature it’s the color of vivid sunsets, fire, vegetables, flowers, fish, and many citrus fruits. In our contemporary world, orange is the color of marmalade, Halloween, traffic cones, life rafts, cheetos, and Halloween.
+                <br>
+            <p> Here you can find out about four different countries and how they use the colour orange in their culture.</p>
+        </article>
+
+        <!-- Landen -->
+        <article>
+            <ul>
+                <li>
+                    <p>HOLLAND</p> <img src="img/kingsday6.jpg"> </li>
+                <li>
+                    <p> INDIA </p>
+                    <a href="categorie.html"><img src="img/hindu-monk-2.jpg"> </a>
+                </li>
+                <li>
+                    <p> JAPAN </p> <img src="img/japanshrine-nieuw.jpg"> </li>
+                <li>
+                    <p>MEXICO</p> <img src="img/mexico-bloemen-2.jpg"></li>
+            </ul>
+        </article>
+
+    </main>
+
+    <!--   https://www.w3schools.com/html/html_form_input_types.asp-->
+    <!--   Formulier voor de gebruiker-->
+    <footer>
+        <section>
+            <h3> What does the color orange mean in your country?</h3>
+            <p> You can tell us here!</p>
+        </section>
+        <hr>
+        <form>
+            <label for="Name">Name</label>
+            <input type="text" name="name" required>
+
+            <label for="country"> Country</label>
+            <input type="text" name="country" required>
+
+            <label for="date"> Date </label>
+            <input type="date" name="date" required>
+
+            <label for="description">Description</label>
+            <textarea name="description" form="form" required></textarea>
+
+            
+            <input type="submit" value="submit">
+            
+        </form>
+
+    </footer>
+    
+<script src="script.js"></script>
+</body>
+
+
+</html>
