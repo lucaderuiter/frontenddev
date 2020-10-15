@@ -19,18 +19,28 @@ nav ul {
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 23px;
+    margin-right: 2em;
     z-index: 5;
 }
 
+
+    
 nav li {
     list-style-type: none;
     font-weight: 600;
-    padding-right: 15px;
+    padding-right: 1em;
     color: #ffffff;
-    font-size: 1em;
     text-decoration: underline;
+    transition: 1s;
+
 }
+
+nav li a:active {
+    transition: 1s;
+    color: #2B025C;
+    
+}
+
 
 
 /*
@@ -38,11 +48,6 @@ nav a:visited {
     color: #ffffff;
 }
 */
-
-nav li:hover, nav a:hover {
-    color: #2B025C;
-    transition: 0.2s;
-}
 
 
 /*filter optie*/
@@ -54,12 +59,9 @@ nav li:hover, nav a:hover {
     position: absolute;
     background-color: #D8C0FF;
     padding: 20px;
-    width: 82%;
     transition: margin 0.5s ease-out;
     visibility: visible;
     z-index: 5;
-    margin-left: 2%;
-    margin-top: -40em;
 }
 
 #filtersection li:hover {
@@ -92,10 +94,10 @@ header section ul li {
 }
 
 header section button {
-    height: 34px;
-    width: 100px;
-    margin: -20px -50px;
-    margin-top: 19px;
+    height: 2em;
+    width: 7em;
+    margin: -3.5em;
+    transform: translate(-10%, -50%);
     position: relative;
     top: 50%;
     left: 50%;
@@ -119,7 +121,7 @@ header section hr {
     margin-top: -6em;
     margin-left: -6em;
     z-index: -1;
-    width: 250px;
+    width: 15em;
 }
 
 .orangeslice3 {
@@ -128,50 +130,47 @@ header section hr {
     left: -15em;
     margin-left: 5em;
     z-index: -3;
-    width: 80px;
+    width: 4em;
 }
 
 .lijn1 {
     position: absolute;
     width: 10px;
     margin-top: -4em;
-    height: fit-content;
-    margin-left: 6%;
+    height: 200vh;
     z-index: -1;
 }
 
 .lijn2 {
     position: absolute;
     margin-top: 3em;
-    height: 96em;
-    margin-left: -20%;
+    height: 150vh;
+    margin-left: -8em;
     z-index: -1;
-    width: 10px;
 }
 
 main article:first-child {
     background-color: #FFA152;
-    width: 80%;
-    margin-left: 4em;
+    width: 80vw;
+    margin-left: 2em;
 }
 
 main h1 {
     color: #2B025C;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 3em;
-    margin-bottom: 0%;
-    margin-top: 25px;
+    margin: 0.3em;
     font-style: italic;
     font-family: helvetica neue, sans-serif;
-    padding: 17px;
+    padding: 10px;
 }
 
 main p {
     color: white;
     font-size: 1em;
     font-weight: 100;
-    margin-right: 20px;
-    padding-left: 50px
+    margin-right: 2em;
+    padding-left: 6em;
 }
 
 main article ul {
@@ -182,7 +181,7 @@ main article ul {
 main article li {
     list-style-type: none;
     background-color: #FFA152;
-    width: 300px;
+    width: 20em;
     height: 15em;
     margin-top: 2em;
     margin-left: auto;
@@ -192,7 +191,7 @@ main article li {
 
 /*https://stackoverflow.com/questions/4264527/vertical-text-direction*/
 
-main article ul li p {
+main article ul li span {
     writing-mode: tb-rl;
     transform: rotate(180deg);
     margin: 0px 0px 0px -40px;
@@ -204,13 +203,18 @@ main article ul li p {
 }
 
 main article li img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /*
     margin-right: auto;
     margin-left: auto;
     margin-top: -155px;
     width: 300px;
     height: 13em;
     z-index: 1;
-    
+*/
 }
 
 main article li img:hover {
