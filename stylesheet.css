@@ -58,10 +58,11 @@ nav a:visited {
 #filtersection {
     position: absolute;
     background-color: #D8C0FF;
-    padding: 20px;
+    padding: 10px;
     transition: margin 0.5s ease-out;
     visibility: visible;
     z-index: 5;
+    transform: translate(12%, 1%);
 }
 
 #filtersection li:hover {
@@ -81,8 +82,8 @@ header section ul {
 
 header section ul li {
     list-style-type: none;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
     width: 33%;
     background-color: white;
     padding: 10px;
@@ -181,8 +182,6 @@ main article ul {
 main article li {
     list-style-type: none;
     background-color: #FFA152;
-    width: 20em;
-    height: 15em;
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
@@ -197,16 +196,18 @@ main article ul li span {
     margin: 0px 0px 0px -40px;
     text-align: center;
     font-weight: 600;
-    height: 170px;
+    height: 25vh;
     font-size: 2em;
     color: #2B025C;
 }
 
 main article li img {
     display: flex;
-    align-items: center;
     justify-content: center;
     overflow: hidden;
+    height: 31vh;
+    width: 64vw;
+    margin-top: -26vh;
     /*
     margin-right: auto;
     margin-left: auto;
