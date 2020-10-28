@@ -34,6 +34,8 @@ nav li a {
     color: #ffffff;
     text-decoration: underline;
     transition: 0.7s;
+/*    https://stackoverflow.com/questions/3015523/remove-or-disable-focus-border-of-browser-via-javascript*/
+    outline: 0;
 }
 
 
@@ -778,7 +780,6 @@ main article ul li span {
 }
 
 main article li img {
-    height: 40vh;
     width: 40vw;
     margin-top: -31vh;
 
