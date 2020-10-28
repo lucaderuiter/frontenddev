@@ -1,5 +1,7 @@
 # frontenddev
 
+Site: https://lucaderuiter.github.io/frontenddev/index.html
+github: https://github.com/lucaderuiter/frontenddev
 
  22/09
  FED herkansing
